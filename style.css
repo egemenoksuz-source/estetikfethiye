@@ -251,4 +251,111 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}/* TELEFON GÖRÜNÜMÜ ORTALAMA DÜZELTMESİ */
+@media (max-width: 800px) {
+  .wrap {
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .hero h1,
+  .hero p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .actions {
+    justify-content: center;
+  }
+
+  .section-head {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-head h2,
+  .section-head p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card,
+  .catalog-group,
+  .step {
+    align-items: center;
+    text-align: center;
+  }
+
+  .tags {
+    justify-content: center;
+  }
+
+  .editorial-note,
+  .copy,
+  .faq-intro,
+  .contact-inner,
+  .foot {
+    text-align: center;
+    align-items: center;
+  }
+
+  .editorial-note .btn {
+    align-self: center;
+  }
+
+  .checks {
+    width: 100%;
+    text-align: center;
+  }
+
+  .catalog-cta {
+    align-items: center;
+    text-align: center;
+  }
+
+  .faq details {
+    text-align: left;
+  }
+
+  .foot-links {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .quote {
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .hero h1 {
+    font-size: 2.65rem;
+    line-height: 1.02;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .actions .btn {
+    width: 100%;
+  }
 }
