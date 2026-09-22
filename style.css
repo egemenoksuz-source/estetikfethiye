@@ -399,4 +399,12 @@ h4::first-letter,
 h5::first-letter,
 h6::first-letter {
   text-transform: uppercase !important;
+}/* Başlıkların özgün yazımını koru */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none !important;
 }
