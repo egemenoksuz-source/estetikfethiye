@@ -134,6 +134,12 @@
 
       scroll-behavior: smooth;
 
+      width: 100%;
+
+      max-width: 100%;
+
+      overflow-x: hidden;
+
     }
 
     body {
@@ -141,6 +147,12 @@
       margin: 0;
 
       overflow-x: hidden;
+
+      width: 100%;
+
+      max-width: 100%;
+
+      position: relative;
 
       background: var(--cream);
 
@@ -168,6 +180,8 @@
 
       max-width: 100%;
 
+      height: auto;
+
     }
 
     button {
@@ -179,6 +193,8 @@
     .wrap {
 
       width: min(1180px, calc(100% - 40px));
+
+      max-width: 100%;
 
       margin: auto;
 
@@ -418,11 +434,11 @@
 
     .hero h1 {
 
-      margin: 18px 0 25px;
+      margin: 14px 0 20px;
 
-      font: 500 clamp(3.2rem, 6vw, 5.8rem) / 0.98 var(--serif);
+      font: 500 clamp(3.2rem, 6vw, 5.8rem) / 0.9 var(--serif);
 
-      letter-spacing: -0.03em;
+      letter-spacing: -0.045em;
 
     }
 
@@ -1766,7 +1782,34 @@
 
       .wrap {
 
-        width: min(100% - 28px, 1180px);
+        width: calc(100% - 28px);
+
+        max-width: calc(100% - 28px);
+
+      }
+
+      main,
+      section,
+      header,
+      footer,
+      .hero,
+      .trust,
+      .trust-grid,
+      .services,
+      .card {
+
+        max-width: 100%;
+
+      }
+
+      h1,
+      h2,
+      h3,
+      p,
+      a,
+      span {
+
+        overflow-wrap: anywhere;
 
       }
 
@@ -2044,7 +2087,7 @@
 
         <h1>
 
-          Güzelliğinizin en <em>zarif</em> hali.
+          Güzelliğinizin En <em>Zarif</em> Hali.
 
         </h1>
 
