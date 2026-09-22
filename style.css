@@ -407,4 +407,17 @@ h4,
 h5,
 h6 {
   text-transform: none !important;
+}/* Bütün başlıklarda her kelimenin ilk harfi büyük */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.eyebrow,
+.topbar,
+.brand small,
+.trust strong,
+summary {
+  text-transform: capitalize !important;
 }
