@@ -1626,5 +1626,13 @@
   </a>
 
   <script src="./script.js"></script>
+  <script>
+  document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach((baslik) => {
+    const yazi = baslik.textContent.trim().toLocaleLowerCase("tr-TR");
+
+    baslik.textContent =
+      yazi.charAt(0).toLocaleUpperCase("tr-TR") + yazi.slice(1);
+  });
+</script>
 </body>
 </html>
