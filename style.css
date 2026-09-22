@@ -358,4 +358,28 @@ body {
   .actions .btn {
     width: 100%;
   }
+}/* Küçük hizmet kutuları */
+.catalog .tags span,
+.catalog .chips span,
+.catalog .pill,
+.service-tags span,
+.tags span,
+.chips span {
+  background: linear-gradient(135deg, #64152b, #3d0716) !important;
+  color: #ffffff !important;
+  border: 1px solid #dbb886 !important;
+  box-shadow: 0 5px 14px rgba(61, 7, 22, 0.18);
+  transition: all 0.25s ease;
+}
+
+/* Üzerine gelince */
+.catalog .tags span:hover,
+.catalog .chips span:hover,
+.catalog .pill:hover,
+.service-tags span:hover,
+.tags span:hover,
+.chips span:hover {
+  background: #7b1d38 !important;
+  border-color: #f0cf9c !important;
+  transform: translateY(-2px);
 }
