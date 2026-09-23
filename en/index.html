@@ -289,6 +289,10 @@
 
     }
 
+    .language-switcher {display:inline-flex;align-items:center;gap:3px;margin-left:auto;margin-right:20px;padding:4px;background:rgba(37,4,13,.72);border:1px solid rgba(216,184,134,.72);border-radius:999px;backdrop-filter:blur(10px)}
+    .language-switcher a,.language-switcher span{min-width:38px;padding:7px 9px;color:#fff8ee;text-align:center;font-size:.72rem;font-weight:600;border-radius:999px}
+    .language-switcher .active{background:var(--gold);color:var(--wine)}
+
     .nav-cta {
 
       padding: 11px 18px;
@@ -1749,6 +1753,10 @@
 
     @media (max-width: 440px) {
 
+      .language-switcher { margin-right: 8px; padding: 3px; gap: 1px; }
+      .language-switcher a,
+      .language-switcher span { min-width: 31px; padding: 6px; font-size: .66rem; }
+
       .wrap {
 
         width: calc(100% - 28px);
@@ -1990,6 +1998,8 @@
 
       </a>
 
+      <div class="language-switcher" aria-label="Language selection"><a href="../">TR</a><span class="active">EN</span><a href="../ru/">RU</a></div>
+
       <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
 
         ☰
@@ -1997,10 +2007,6 @@
       </button>
 
       <div class="links">
-
-        <a href="../" aria-label="Turkish version">TR</a>
-
-        <a href="../ru/" aria-label="Русская версия">RU</a>
 
         <a href="#uygulamalar">Treatments</a>
 
