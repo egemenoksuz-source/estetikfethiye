@@ -221,6 +221,13 @@
 
     }
 
+    .brand-logo img {
+      display: block;
+      width: 138px;
+      height: 86px;
+      object-fit: contain;
+    }
+
     .mark {
 
       width: 42px;
@@ -1757,6 +1764,8 @@
       .language-switcher a,
       .language-switcher span { min-width: 31px; padding: 6px; font-size: .66rem; }
 
+      .brand-logo img { width: 92px; height: 62px; }
+
       .wrap {
 
         width: calc(100% - 28px);
@@ -1984,18 +1993,8 @@
 
     <nav class="wrap">
 
-      <a class="brand" href="#anasayfa" aria-label="Главная страница Estetik Fethiye">
-
-        <span class="mark">EF</span>
-
-        <span>
-
-          <strong>Estetik Fethiye</strong>
-
-          <small>Эстетическая медицина и долголетие</small>
-
-        </span>
-
+      <a class="brand brand-logo" href="#anasayfa" aria-label="Главная страница Estetik Fethiye">
+        <img src="../assets/estetik-fethiye-logo.png" alt="Логотип Estetik Fethiye" width="138" height="86">
       </a>
 
       <div class="language-switcher" aria-label="Выбор языка"><a href="../">TR</a><a href="../en/">EN</a><span class="active">RU</span></div>
