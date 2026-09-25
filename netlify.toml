@@ -8,7 +8,47 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
 
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "/index-baslik-duzeltildi.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-duzeltilmis.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-guncel.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-mobil-duzeltildi.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-pridi.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-renkli-son.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-zarif-bosluk-son.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index-2.html"
+  to = "/"
+  status = 301
