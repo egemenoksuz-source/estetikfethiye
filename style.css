@@ -421,3 +421,6 @@ h6,
 summary {
   text-transform: capitalize !important;
 }
+/* Readable opening content without delayed visibility */
+.hero-content .eyebrow,.hero-content h1,.hero-content p,.hero-content .actions{opacity:1;filter:none;transform:none;animation:none}
+@media(max-width:440px){.hero-content .eyebrow{letter-spacing:.08em;line-height:1.6;overflow-wrap:anywhere}}

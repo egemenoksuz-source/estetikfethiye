@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     ".visual, .copy, .step, .faq-intro, .faq details"
   );
 
+  if (!("IntersectionObserver" in window)) return;
+
   animatedElements.forEach(function (element) {
     element.classList.add("reveal");
   });
