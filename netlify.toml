@@ -52,3 +52,129 @@
   from = "/index-2.html"
   to = "/"
   status = 301
+
+[[redirects]]
+  from = "/iv-destek-fethiye.html"
+  to = "/iv-destek-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dolgu-fethiye.html"
+  to = "/dolgu-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/botoks-fethiye.html"
+  to = "/botoks-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/biyostimulan-fethiye.html"
+  to = "/biyostimulan-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sac-uygulamalari-fethiye.html"
+  to = "/sac-uygulamalari-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cilt-yenileme-fethiye.html"
+  to = "/cilt-yenileme-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/hair-treatments-fethiye.html"
+  to = "/en/hair-treatments-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/iv-therapy-fethiye.html"
+  to = "/en/iv-therapy-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/biostimulator-fethiye.html"
+  to = "/en/biostimulator-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/skin-rejuvenation-fethiye.html"
+  to = "/en/skin-rejuvenation-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/dermal-fillers-fethiye.html"
+  to = "/en/dermal-fillers-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/botox-fethiye.html"
+  to = "/en/botox-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/hair-treatments-fethiye.html"
+  to = "/ru/hair-treatments-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/iv-therapy-fethiye.html"
+  to = "/ru/iv-therapy-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/biostimulator-fethiye.html"
+  to = "/ru/biostimulator-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/skin-rejuvenation-fethiye.html"
+  to = "/ru/skin-rejuvenation-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/dermal-fillers-fethiye.html"
+  to = "/ru/dermal-fillers-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/botox-fethiye.html"
+  to = "/ru/botox-fethiye"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/index.html"
+  to = "/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ru/index.html"
+  to = "/ru/"
+  status = 301
+  force = true
